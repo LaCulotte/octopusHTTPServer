@@ -1,0 +1,35 @@
+{
+    "object": {
+        "type": "object",
+        "children": {
+            "boolean": {
+                "type": "bool",
+                "default": false
+            },
+            "int": {
+                "type": "number",
+                "default": 3
+            },
+            "float": {
+                "type": "number",
+                "default": 10.5,
+                "step": 0.1
+            },
+            "string": {
+                "type": "string",
+                "default": "salut :)"
+            },
+            "list": {
+                "type": "list",
+                "children": {
+                    "type": "string",
+                    "default": "test"
+                }
+            }
+        }
+    },
+    "sendIPV4": {
+        "type": "bool",
+        "default": true
+    }
+}
